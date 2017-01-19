@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 html, body{
@@ -13,7 +15,7 @@ html, body{
 header {
     width: 100%;
     height: 80px;
-    padding: 20px 400px;
+    padding: 20px 362px;
     background-color: #fff;
 }
 
@@ -27,11 +29,6 @@ nav {
     height: 40px;
     background: url(/images/spritesheet.png) -12px -21px no-repeat;
     float: left;
-}
-
-section {
-    background-color: #f1f1f1;
-    height: 832px;
 }
 
 ul {
@@ -72,5 +69,71 @@ a {
 .youtube {
     background: url(/images/spritesheet.png) -144px -115px no-repeat;
 }
+
+/* section */
+
+section {
+    padding: 63px 362px 0;
+    height: 832px;
+    background-color: #f1f1f1;
+}
+
+section h1 {
+    width: 700px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "league-gothic";
+    font-size: 4.2em;
+    font-weight: normal;
+    letter-spacing: .05em;
+    color: #09476b;
+}
+
+section span {
+    color: #0078a1;
+}
+
+section h1::after {
+    content: "";
+    display: block;
+    padding-top: 18px; 
+    margin-bottom: 50px;
+    border-bottom: 3px dotted #0078a1;
+}
+
+section p {
+    text-align: center;
+    font-family: "HelveticNeue-Condensed",Helvetica,sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: #09476b;
+}
+
+/* 3 boxes in main section*/
+
+.box {
+    display: inline-block;
+    width: 316px;
+    height: 218px;
+    padding: 0 20px;
+    border-radius: 
+    box-shadow: 1px 1px; 
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+section .box img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 23px auto 0;
+}
+
+.box p {
+    font-size: 14px;
+    text-align: center;
+}
+
 
 

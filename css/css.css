@@ -198,6 +198,31 @@ footer h2 {
     text-align: center;
 }
 
+.img-container {
+    text-align: center;
+}
 
+.img-grid {
+    display: inline-block;
+    margin-top: 80px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.img-grid img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.img-grid p {
+    font-weight: bold;
+    color: #09476b;
+    text-align: center;
+}
+
+.img-container .img-grid:first-child {
+    padding-right: 70px;
+}
 
 

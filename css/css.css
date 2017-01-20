@@ -27,7 +27,7 @@ nav {
     display: inline-block;
     width: 207px;
     height: 40px;
-    background: url(/images/spritesheet.png) -12px -21px no-repeat;
+    background: url(../images/spritesheet.png) -12px -21px no-repeat;
 }
 
 .google-translate {
@@ -60,19 +60,19 @@ a {
 }
 
 .facebook {
-    background: url(/images/spritesheet.png) -22px -115px no-repeat;
+    background: url(../images/spritesheet.png) -22px -115px no-repeat;
 }
 
 .twitter {
-    background: url(/images/spritesheet.png) -62px -115px no-repeat;
+    background: url(../images/spritesheet.png) -62px -115px no-repeat;
 }
 
 .flicker {
-    background: url(/images/spritesheet.png) -103px -115px no-repeat;
+    background: url(../images/spritesheet.png) -103px -115px no-repeat;
 }
 
 .youtube {
-    background: url(/images/spritesheet.png) -144px -115px no-repeat;
+    background: url(../images/spritesheet.png) -144px -115px no-repeat;
 }
 
 /* section */
@@ -185,7 +185,7 @@ button {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    margin: -100px auto 0;
+    margin: -100px auto 50px;
     background-color: #fff;
     
 }
@@ -213,6 +213,7 @@ footer h2 {
     display: inline-block;
     width: 150px;
     height: 150px;
+    margin-bottom: 20px;
 }
 
 .img-grid p {
@@ -221,8 +222,13 @@ footer h2 {
     text-align: center;
 }
 
+
 .img-container .img-grid:first-child {
     padding-right: 70px;
 }
 
+.footer-logo {
+    display: block;
+    margin: 0 auto 40px;
+}
 

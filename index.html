@@ -34,7 +34,13 @@
                 <img src="images/scam-strat-3.png" alt="credit card">
                 <p>Demand immediate payment – often by prepaid debit card.</p>
             </div>
-            <button type="button"> Download PDF <span class="carrot"></span></button>
+            <button id="button" type="button"> Download PDF <span class="carrot"></span></button>
+            <ul class="pdf-lang">
+                <li>English</li>
+                <li>Russian</li>
+                <li>Chinese</li>
+                <li>Spanish</li>
+            </ul>
         </section>
         
         <footer>
@@ -53,13 +59,23 @@
                     </div>
                 </div>
             </div>
-            <img class="footer-logo" src="images/footer_logo.png" alt="footer_logo">
+            <a class="footer-cont" href="#">
+                <img class="footer-logo" src="images/footer_logo.png" alt="footer_logo">
+            </a>
             
         </footer>
     
         <script src="https://use.typekit.net/ydw7iry.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
-        <script type="text/javascript"></script>
+        <script type="text/javascript">
+            var btn = document.getElementById("button");
+
+            btn.addEventListener("click", function(){
+                console.log("clicked");
+            })
+            
+            
+        </script>
     </body>
     
 

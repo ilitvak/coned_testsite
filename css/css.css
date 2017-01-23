@@ -119,6 +119,10 @@ section p {
 
 /* 3 boxes in main section*/
 
+.box-container {
+    width: 100%;
+}
+
 .box {
     display: inline-block;
     width: 316px;
@@ -204,6 +208,16 @@ button {
     outline: none;
 }
 
+.pdf-lang li:hover {
+    display: block;
+    background-color: #0078a1;
+}
+
+.pdf-lang li:hover a {
+    display:block;
+    color: #fff;
+}
+
 .border-bottom {
     width: 85%;
     border-bottom: 1px solid gray;
@@ -272,5 +286,43 @@ footer h2 {
 .footer-logo {
     display: block;
     margin: 0 auto 40px;
+}
+
+/* Beginning of Media Queries */
+
+@media(max-width: 1024px) {
+    
+    header {
+        padding: 20px;
+    }
+    
+    header ul {
+        margin-left: 0;
+        float: right;
+    }
+    
+    section {
+        padding: 40px 20px 0;
+    }
+    
+    section .box img {
+        margin: 0 auto;
+    }
+    
+    .box {
+        width: 31.60%;
+        padding:20px 25px 10px;
+        margin: 50px 0 0;
+        height: auto;
+    }
+    
+    .box-container .box:nth-child(2) {
+        margin: 50px 20px 0;
+    }
+}
+
+@media (max-width: 998px) {
+    
+  
 }
 

@@ -188,7 +188,7 @@ button {
     background-color: #fff;
     visibility: hidden;
     z-index: 100;
-    transition: 1s all ease;
+    transition: .3s all ease;
 }
 
 .show {
@@ -197,9 +197,23 @@ button {
 
 .pdf-lang li {
     display: block;
-    border-bottom: 1px solid black;
-    color: grey;
+    padding: 5px 0;
+    font-family: Arial;
+    font-weight: bold;
     text-transform: uppercase;
+    outline: none;
+}
+
+.border-bottom {
+    width: 85%;
+    border-bottom: 1px solid gray;
+    margin: 0 auto;
+}
+
+.pdf-list-opt {
+    display: block;
+    text-decoration: none;
+    color: gray;
 }
 
 /* Footer section */

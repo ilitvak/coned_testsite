@@ -1,7 +1,22 @@
 // Setting up js page for Coned_testpage
 
+//var btn = document.getElementById("button");
+//var languageList = document.getElementsByTagName("ul");
+//console.log(languageList + " is found");
+//
+//btn.addEventListener("click", function(){
+//    console.log("click");
+//    languageList.classList.toggle("show");
+//    console.log(languageList.classList.contains("show"));
+//})
+
+
 var btn = document.getElementById("button");
 
+var languageList = document.querySelector(".pdf-lang");
+
 btn.addEventListener("click", function(){
-    console.log("clicked");
+    languageList.classList.toggle("show");
+    console.log(languageList.classList.contains("show"))
 })
+

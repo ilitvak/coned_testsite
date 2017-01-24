@@ -20,3 +20,16 @@ btn.addEventListener("click", function(){
     console.log(languageList.classList.contains("show"))
 })
 
+//var current = document.querySelector(".box-container .box:nth-child(2)");
+//
+//var windowResize = window.outerWidth;
+//
+//window.addEventListener("resize", function(){
+//    if (window.outerWidth <=749) 
+//        current.className += " current-box";
+//    else
+//        current.className = "box";
+//});
+
+
+

@@ -355,5 +355,61 @@ footer h2 {
     .box-container .box:nth-child(2) p {
         color: #fff;
     }
+    
+    section .box img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .box {
+        padding: 20px 25px 20px;
+    }
+    
+    .box p {
+        font-size: 3vw;
+        letter-spacing: 0.05px;
+    }
+    
+    button {
+        padding: 25px 70px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    
+    .pdf-lang {
+        width: 300px;
+        padding: 0;
+    }
+    
+    .pdf-lang li a {
+        font-size: 20px;
+    }
+    
+    .circle-container {
+        width: auto;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    
+    .circle-container h2 {
+        font-size: 4.5vw;
+    }
+    
+    .img-grid {
+        display: block;
+    }
+    
+    .img-grid img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .img-container .img-grid:first-child {
+        padding-right: 0;
+    }
+    
+    .img-grid p {
+        font-size: 3.5vw;
+    }
 }
 

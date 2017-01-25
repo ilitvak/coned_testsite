@@ -386,13 +386,11 @@ footer h2 {
     }
     
     .circle-container {
-        width: auto;
-        height: auto;
         margin-bottom: 50px;
     }
     
     .circle-container h2 {
-        font-size: 4.5vw;
+        font-size: 30px;
     }
     
     .img-grid {
@@ -409,7 +407,11 @@ footer h2 {
     }
     
     .img-grid p {
-        font-size: 3.5vw;
+        font-size: 25px;
+    }
+    
+    .footer-cont {
+        margin-top: 50px;
     }
 }
 

@@ -427,6 +427,11 @@ footer h2 {
         transform: scale(.8);
     }
     
+    section {
+        position: relative;
+        padding: 40px 20px 175px;
+    }
+    
     section h1 {
         font-size: 45px;
     }
@@ -455,10 +460,15 @@ footer h2 {
     
     button {
         padding: 15px 50px;
+        margin-bottom: -90px;
     }
     
     .pdf-lang {
+        position: absolute;
         width: 265px;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     .pdf-lang li a {
@@ -468,6 +478,44 @@ footer h2 {
     .pdf-lang li:last-child {
         border-bottom: none;
     }
+    
+    footer {
+        position: relative;
+    }
+    
+    .circle-container {
+        width: 25em;
+        height: 25em;
+        margin: -50px auto 50px;
+    }
+    
+    .circle-container h2{
+        font-size: 25px;
+    }
+    
+    .img-grid img {
+        width: 175px;
+        height: 175px;
+    }
+    
+    .img-grid p {
+        font-size: 20px;
+    }
+    
+    .img-grid p:nth-child(4) {
+        display: inline-block;
+        padding: 15px 15px;
+        margin-top: 10px;
+        background-color: #4BA8C7;
+        font-size: 20px;
+        font-weight: bold;
+        color:#fff;
+        transition: .5s all ease;
+    }
+}
+
+@media (max-width: 449px) {
+    
 }
 
 

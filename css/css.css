@@ -32,6 +32,7 @@ nav {
     width: 207px;
     height: 40px;
     background: url(../images/spritesheet.png) -12px -21px no-repeat;
+    transition: all .25s;
 }
 
 .google-translate {
@@ -170,9 +171,10 @@ button {
     font-size: 15px;
     font-weight: bold;
     color: #fff;
-    background-color: #0078a1;
+    background-color: #3E97BB;
     outline: none;
     cursor: pointer;
+    transition: .5s all ease;
 }
 
 .carrot {
@@ -228,7 +230,7 @@ button {
 .pdf-list-opt {
     display: block;
     text-decoration: none;
-    color: gray;
+    color: #a8a8a8;
 }
 
 /* Footer section */
@@ -413,5 +415,59 @@ footer h2 {
     .footer-cont {
         margin-top: 50px;
     }
+} 
+    
+@media (max-width: 599px) {
+    
+    header {
+        padding-left: 0;
+    }
+    
+    #logo {
+        transform: scale(.8);
+    }
+    
+    section h1 {
+        font-size: 45px;
+    }
+    
+    section h1:after {
+        width: 85%;
+    }
+    
+    section p {
+        font-size: 1.3em;
+    }
+    
+    .box-container {
+        width: 250%;
+        margin: 50px -75% 0;
+    }
+    
+    .box {
+        padding: 10px 25px;
+    }
+    
+    .box-container .box img {
+        width: 125px;
+        height: 125px;
+    }
+    
+    button {
+        padding: 15px 50px;
+    }
+    
+    .pdf-lang {
+        width: 265px;
+    }
+    
+    .pdf-lang li a {
+        font-size: 20px;
+    }
+    
+    .pdf-lang li:last-child {
+        border-bottom: none;
+    }
 }
+
 

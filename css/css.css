@@ -41,7 +41,7 @@ nav {
 
 header ul {
     display: inline-block;
-    height: 100%;
+    height: auto;
     float:right;
 }
 
@@ -429,15 +429,11 @@ footer h2 {
     
     section {
         position: relative;
-        padding: 40px 20px 175px;
+        padding: 40px 30px 175px;
     }
     
     section h1 {
         font-size: 45px;
-    }
-    
-    section h1:after {
-        width: 85%;
     }
     
     section p {
@@ -477,7 +473,6 @@ footer h2 {
     
     .pdf-lang li:last-child {
         border-bottom: none;
-        /*wow*/
     }
     
     footer {
@@ -517,6 +512,88 @@ footer h2 {
 
 @media (max-width: 449px) {
     
+    footer {
+        height: 100%;
+    }
+    
+    header {
+        height: auto;
+        padding: 10px 10px 10px 0;
+    }
+    
+    section {
+        padding: 20px 54px 160px;
+    }
+    
+    section h1 {
+        font-size: 30px;
+    }
+    
+    section p {
+        font-size: 17px;
+    }
+    
+    section h1:after {
+        margin-bottom: 25px;
+    }
+    
+    .box-container {
+        position: relative;
+        width: 300%;
+        margin: 25px -100% 0;
+    }
+    
+    .box-container .box img {
+        width: 75px;
+        height: 75px;
+    }
+    
+    button {
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+    
+    .circle-container {
+        width: 15em;
+        height: 15em;
+        margin-top: -35px;
+    }
+    
+    .circle-container h2 {
+        font-size: 15px;
+    }
+    
+    .img-container .img-grid:first-child {
+        margin-top: 60px;
+    }
+    
+    .img-grid img {
+        width: 125px;
+        height: 125px;
+    }
+    
+    .img-grid p {
+        font-size: 17px;
+    }
+    
+    .img-grid p:nth-child(4) {
+        padding: 10px 7px;
+        font-size: 14px;
+    }
+    
+    .pdf-lang {
+        width: 175px;
+        min-width: 175px;
+        top: 99%;
+    }
+    
+    .pdf-lang li a {
+        font-size: 13px;
+    }
+    
+    .footer-cont {
+        display: inline-block;
+    }
 }
 
 
